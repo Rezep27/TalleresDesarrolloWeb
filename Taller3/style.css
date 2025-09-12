@@ -1,16 +1,10 @@
-.myHeader{
-  margin: 20px 0px;
-  padding: 0px 20px;
+.myForm, .myTable{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
 }
 
-button{
-  margin: auto 15px;
-}
-
-#accordionExample{
-  margin: 30px auto;
-}
-
-.form-label{
-  margin-top: 30px;
+h1{
+  padding-top: 15px;
+  padding-left: 15px;
 }
