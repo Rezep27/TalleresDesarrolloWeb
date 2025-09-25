@@ -6,9 +6,9 @@
       <th scope="col">Email</th>
     </tr>
   </thead>
-  <tbody>
-    @for (contact of contacts; track contact.id){
-      <app-contact-row [contact] = "contact"></app-contact-row>
+  <tbody id="tableBody">
+    @for (c of contacts; track c.id){
+        <tr app-contact-row [contact] = "c"></tr>
     }
   </tbody>
 </table>

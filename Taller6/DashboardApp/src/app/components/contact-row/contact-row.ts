@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import {Contact} from '../contact-list/contact-list';
 
 @Component({
-  selector: 'app-contact-row',
+  selector: 'tr[app-contact-row]',
   imports: [],
   templateUrl: './contact-row.html',
   styleUrl: './contact-row.css'
