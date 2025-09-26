@@ -1,0 +1,4 @@
+@for (hero of heroTexts; track hero.title) {
+    <hr class="featurette-divider" />
+    <div app-heroes-child class="row featurette" [heroText]="hero"></div>
+}

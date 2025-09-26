@@ -1,0 +1,5 @@
+<div class="row">
+    @for (inf of infoInfo; track inf.title) {
+        <div app-information-cards-child class="col-lg-4" [informationInfo] = "inf"></div>
+    }
+</div>
