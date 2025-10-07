@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import {ContactList} from './components/contact-list/contact-list'
 import { GraphicChart } from './components/graphic-chart/graphic-chart';
 import { SideMenu } from './components/side-menu/side-menu';
+import { provideHttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
